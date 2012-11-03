@@ -56,5 +56,11 @@ this.time = function(){
     clock.addAlarm("07:00:00");
     console.log(clock.time());   
     clock.tick();
-    console.log(clock.time());            
+    console.log(clock.time());     
+    
+     var clock = new Clock(06,59,59);
+    clock.addAlarm("07:00:00");
+    console.log(clock.time());   
+    clock.tick();
+    console.log(clock.time());
     
